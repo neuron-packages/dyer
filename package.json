@@ -1,0 +1,19 @@
+{
+  "name": "dyer",
+  "version": "0.1.0",
+  "description": "Utility to dyer color on dom elements",
+  "main": "index.js",
+  "repository": "git://github.com/cortex-packages/dyer.git",
+  "keywords": [
+    "dyer"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "ltebean",
+    "email": "yucong1118@gmail.com"
+  },
+  "bugs": {
+    "url": "http://github.com/cortex-packages/dyer/issues"
+  },
+  "homepage": "http://github.com/cortex-packages/dyer"
+}

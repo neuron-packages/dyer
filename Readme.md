@@ -5,12 +5,15 @@
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+  cortex install dyer
 
-    $ component install spud/dyer
+## Usage
 
-## API
-
+```js
+  var Dyer = require("dyer");
+  var dyer = new Dyer();
+  dyer.dye(document.querySelectorAll("div"));
+```
 
 
 ## License

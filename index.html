@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+
+<!-- cortex build will generate the two files below. -->
+<script src="./neurons/neuron.js"></script>
+<script src="./neurons/config.js"></script>
+<script>
+  neuron.config({
+    // cortex build will generate a folder named `'neurons'` as well as the `'node_modules'` of node.js
+    path: './neurons'
+  });
+</script>
+</head>
+
+
+<body>
+    <style>
+    #a{position: absolute;top:60px;left:20px;width: 20px;height: 40px;}
+    #t{position: absolute;top:20px;left: 90px; height: 35px; width: 15px;padding: 15px;}
+    #b{position: fixed; top:60px; right: 30px; width:30px;height:40px;}
+    </style>
+      <div id="a">a
+        <div id="t">t</div>
+      </div>
+      <div id="b">b</div>
+      <div id="c">c</div>
+      <div id="d">d</div>
+
+    <script>
+        _use('dyer',function(Dyer){
+          var dyer = new Dyer();
+          dyer.dye(document.querySelectorAll("div"));
+        })
+    </script>
+</body>
+
+</html>
