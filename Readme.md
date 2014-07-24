@@ -5,7 +5,9 @@
 
 ## Installation
 
+```
   cortex install dyer
+```
 
 ## Usage
 
